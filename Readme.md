@@ -38,4 +38,4 @@ pipenv install streamlit <br/>
 streamlit hello <br/>
 
 ### Streamlit 파일실행
-streamlit run step_x.py <br/>
+streamlit run step_y.py <br/>
