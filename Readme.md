@@ -20,22 +20,23 @@ reload 개발자창 다시로드
 
 # LLM 설치
 Ollama 설치
-## gemma3 4b model 사용(최초 사용 시에만 설치)
+## gemma3 4b model 실행(최초 사용 시에만 자동설치 됨)
 ollama run gemma3:4b
+(RAM 용량이 부족 할 경우 실행이 안될 수 있음)
 # gemma3 모델 설치 확인
 ollama pull gemma3:4b
 ## 파이썬 Ollama 패키지 설치
 pipenv install ollama
 
-# 실행할 명령어를 드래그 하여 Shift + enter로 대화형 주피터 실행창 생성
+## 실행할 명령어를 드래그 하여 Shift + enter로 대화형 주피터 실행창 생성
 
 
 # Streamlit 설치
 pipenv install streamlit
 
 
-#Streamlit 작동확인
+# Streamlit 작동확인
 streamlit hello
 
-#Streamlit 파일실행
-streamlit run step_x.py
+# Streamlit 챗봇 대화 UI 파일실행
+streamlit run step_y.py
